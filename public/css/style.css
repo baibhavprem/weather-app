@@ -1,0 +1,98 @@
+body {
+  margin: 0px auto;
+  padding: 20px 5px;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #071e3d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: url(/img/bg.jpg) no-repeat center center;
+}
+
+/* ----------- Utility Classes ----------- */
+.h-primary {
+  font-size: 3rem;
+}
+
+.h-secondary {
+  margin: 1rem 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #071e3d;
+}
+
+/* ----------- Home page ----------- */
+#heading {
+  margin: 0px 0px 15px 0px;
+  padding: 5px;
+  color: #071e3d;
+}
+
+/* ----------- Images ----------- */
+#abtImg {
+  height: 200px;
+  padding: 20px 0px 20px 0px;
+}
+#img404 {
+  height: 200px;
+  margin: 25px 0px 20px 0px ;
+  box-shadow: 14px 8px 28px #071e3d
+}
+
+/* ----------- Nav-Links ----------- */
+#links {
+  margin: 0px 5px 15px 5px;
+  padding: 4px 8px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #071e3d;
+  background-image: linear-gradient(to right,#00ffea,#7cff70);
+  border-radius: 8px; 
+  transition-duration: 0.3s;
+}
+#links:hover{
+  transform: scale(1.1);
+}
+
+/* ----------- Form start ----------- */
+.btn {
+  margin: 0px 5px 15px 5px;
+  padding: 6px 8px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: white;
+  background-color: #1f4287;
+  border-radius: 8px; 
+  transition-duration: 0.3s;
+}
+.btn:hover{
+  transform: scale(1.05);
+}
+
+#input {
+  padding: 5px;
+  background-color: rgb(214, 255, 251);
+  border: 1px solid #1f4287;
+  border-radius: 3px;
+}
+
+#message1,#message2 {
+  margin: 6px 24px;
+} 
+/* ----------- Form end ----------- */
+
+
+footer {
+  margin: 40px 0px 0px 0px ;
+  max-width: 650px;
+  color: #1f4287;
+  border-top: 1px solid #829fdf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}

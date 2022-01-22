@@ -1,0 +1,3 @@
+# Contains all the files which we dont want git to track as these files can be recreated again using --> npm install
+
+/node_modules
